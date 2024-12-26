@@ -1,0 +1,85 @@
+[0m19:45:40.307141 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002353D6BD0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000235401062E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023540106760>]}
+
+
+============================== 19:45:40.310140 | deb9f12e-30a0-4556-903e-3a675c75ab6e ==============================
+[0m19:45:40.310140 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:45:40.310140 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Mohit\\.dbt', 'version_check': 'True', 'warn_error': 'None', 'log_path': 'logs', 'debug': 'False', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'log_format': 'default', 'invocation_command': 'dbt init BikeRideShareDBTProject1', 'static_parser': 'True', 'introspect': 'True', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'send_anonymous_usage_stats': 'True'}
+[0m19:45:40.311141 [debug] [MainThread]: Starter project path: C:\Users\Mohit\anaconda3\envs\work\lib\site-packages\dbt\include\starter_project
+[0m19:45:40.319655 [info ] [MainThread]: 
+Your new dbt project "BikeRideShareDBTProject1" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m19:45:40.319655 [info ] [MainThread]: Setting up your profile.
+[0m19:46:36.431596 [info ] [MainThread]: Profile BikeRideShareDBTProject1 written to C:\Users\Mohit\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m19:46:36.433589 [debug] [MainThread]: Command `dbt init` succeeded at 19:46:36.433589 after 56.16 seconds
+[0m19:46:36.433589 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002353D6BD0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000023540106E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002354010F4C0>]}
+[0m19:46:36.434591 [debug] [MainThread]: Flushing usage events
+[0m19:46:47.091104 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAC881C0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BACB2742E0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BACB274760>]}
+
+
+============================== 19:46:47.093112 | efe11c66-d57a-4da9-8f72-218dc7fa8d6a ==============================
+[0m19:46:47.093112 [info ] [MainThread]: Running with dbt=1.7.4
+[0m19:46:47.094104 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'fail_fast': 'False', 'profiles_dir': 'C:\\Users\\Mohit\\.dbt', 'log_path': 'logs', 'debug': 'False', 'version_check': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m19:46:47.094104 [info ] [MainThread]: dbt version: 1.7.4
+[0m19:46:47.094104 [info ] [MainThread]: python version: 3.8.20
+[0m19:46:47.095112 [info ] [MainThread]: python path: C:\Users\Mohit\anaconda3\envs\work\python.exe
+[0m19:46:47.095112 [info ] [MainThread]: os info: Windows-10-10.0.26100-SP0
+[0m19:46:47.148022 [info ] [MainThread]: Using profiles dir at C:\Users\Mohit\.dbt
+[0m19:46:47.149022 [info ] [MainThread]: Using profiles.yml file at C:\Users\Mohit\.dbt\profiles.yml
+[0m19:46:47.149022 [info ] [MainThread]: Using dbt_project.yml file at C:\VikasSir\ClientProjects\Project9_BikeRideShare\BikeRideShareDBTProject1\dbt_project.yml
+[0m19:46:47.149022 [info ] [MainThread]: adapter type: postgres
+[0m19:46:47.150021 [info ] [MainThread]: adapter version: 1.7.4
+[0m19:46:47.150021 [info ] [MainThread]: Configuration:
+[0m19:46:47.150021 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m19:46:47.150021 [info ] [MainThread]:   dbt_project.yml file [[31mERROR not found[0m]
+[0m19:46:47.150968 [info ] [MainThread]: Required dependencies:
+[0m19:46:47.150968 [debug] [MainThread]: Executing "git --help"
+[0m19:46:47.171761 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Reset current HEAD to the specified state\n   switch     Switch branches\n   tag        Create, list, delete or verify a tag object signed with GPG\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m19:46:47.171761 [debug] [MainThread]: STDERR: "b''"
+[0m19:46:47.171761 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m19:46:47.172760 [info ] [MainThread]: Connection:
+[0m19:46:47.172760 [info ] [MainThread]:   host: 98.82.112.233
+[0m19:46:47.172760 [info ] [MainThread]:   port: 5432
+[0m19:46:47.173760 [info ] [MainThread]:   user: postgres
+[0m19:46:47.173760 [info ] [MainThread]:   database: citibike_trips
+[0m19:46:47.173760 [info ] [MainThread]:   schema: public
+[0m19:46:47.173760 [info ] [MainThread]:   connect_timeout: 10
+[0m19:46:47.174760 [info ] [MainThread]:   role: None
+[0m19:46:47.174760 [info ] [MainThread]:   search_path: None
+[0m19:46:47.174760 [info ] [MainThread]:   keepalives_idle: 0
+[0m19:46:47.174760 [info ] [MainThread]:   sslmode: None
+[0m19:46:47.174760 [info ] [MainThread]:   sslcert: None
+[0m19:46:47.174760 [info ] [MainThread]:   sslkey: None
+[0m19:46:47.174760 [info ] [MainThread]:   sslrootcert: None
+[0m19:46:47.176262 [info ] [MainThread]:   application_name: dbt
+[0m19:46:47.176262 [info ] [MainThread]:   retries: 1
+[0m19:46:47.176262 [info ] [MainThread]: Registered adapter: postgres=1.7.4
+[0m19:46:47.177264 [debug] [MainThread]: Acquiring new postgres connection 'debug'
+[0m19:46:47.177264 [debug] [MainThread]: Using postgres connection "debug"
+[0m19:46:47.177264 [debug] [MainThread]: On debug: select 1 as id
+[0m19:46:47.177264 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m19:46:49.623103 [debug] [MainThread]: SQL status: SELECT 1 in 2.0 seconds
+[0m19:46:49.626109 [debug] [MainThread]: On debug: Close
+[0m19:46:49.627627 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m19:46:49.628977 [info ] [MainThread]: [31m1 check failed:[0m
+[0m19:46:49.631067 [info ] [MainThread]: Project loading failed for the following reason:
+ project path <C:\VikasSir\ClientProjects\Project9_BikeRideShare\BikeRideShareDBTProject1\dbt_project.yml> not found
+
+[0m19:46:49.632992 [debug] [MainThread]: Command `dbt debug` failed at 19:46:49.632049 after 2.58 seconds
+[0m19:46:49.632992 [debug] [MainThread]: Connection 'debug' was properly closed.
+[0m19:46:49.633988 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BAC881C0A0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BACA8A2EE0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002BACB3EB0A0>]}
+[0m19:46:49.633988 [debug] [MainThread]: Flushing usage events

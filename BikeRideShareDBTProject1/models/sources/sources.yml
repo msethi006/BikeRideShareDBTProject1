@@ -1,0 +1,36 @@
+version: 2
+
+sources:
+  - name: citibike_data                # Logical name for the source
+    schema: public                     # Schema where the table is located
+    database: citibike_trips            # Postgres database name
+    tables:
+      - name: citibike_trips           # Name of the table in the database
+        description: "Table containing Citi Bike trip data"
+        columns:
+          - name: ride_id
+            description: "Unique identifier for each ride"
+          - name: rideable_type
+            description: "Type of bike used for the ride (e.g., electric, classic)"
+          - name: started_at
+            description: "Timestamp when the ride started"
+          - name: ended_at
+            description: "Timestamp when the ride ended"
+          - name: start_station_name
+            description: "Name of the starting station"
+          - name: start_station_id
+            description: "ID of the starting station"
+          - name: end_station_name
+            description: "Name of the ending station"
+          - name: end_station_id
+            description: "ID of the ending station"
+          - name: start_lat
+            description: "Latitude of the starting station"
+          - name: start_lng
+            description: "Longitude of the starting station"
+          - name: end_lat
+            description: "Latitude of the ending station"
+          - name: end_lng
+            description: "Longitude of the ending station"
+          - name: member_casual
+            description: "Membership type of the rider (member or casual)"
